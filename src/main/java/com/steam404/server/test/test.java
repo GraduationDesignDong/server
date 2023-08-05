@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class test {
-    @GetMapping(value = "test")
+    @GetMapping(value = "get")
     public String getTest(){
         return "getTest";
     }
-    @PostMapping(value = "test")
+    @PostMapping(value = "post")
     public String postTest(){
         return "postTest";
     }
