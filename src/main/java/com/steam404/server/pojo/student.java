@@ -22,7 +22,7 @@ public class student {
         return name;
     }
 
-    public void setName(String name) {
+    public  void setName(String name) {
         this.name = name;
     }
 
@@ -38,7 +38,7 @@ public class student {
         return chinese;
     }
 
-    public void setChinese(int chinese) {
+    public  void setChinese(int chinese) {
         this.chinese = chinese;
     }
 
@@ -46,7 +46,7 @@ public class student {
         return math;
     }
 
-    public void setMath(int math) {
+    public  void setMath(int math) {
         this.math = math;
     }
 
